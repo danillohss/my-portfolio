@@ -42,10 +42,7 @@
               <p class="text-grey">
                 Meu nome é Danillo, tenho 25 anos, trabalhei como Desenvolvedor Jr FrontEnd na empresa Comeia, localizada
                 em Caruaru-PE, atualmente estou em busca de novas oportunidades e desafios. Sou um amante da tecnologia e
-                apaixonado pelo desenvolvimento FrontEnd, um Dev Junior em constante aprendizado e evolução, atualmente
-                estudando Vue.js, JavaScript, HTML e CSS, cada vez mais aprimorando meus conhecimentos com o passar do
-                tempo. Também com total interesse de aprender novas tecnologias como Node.js por exemplo assim me tornando
-                fullstack JavaScript.
+                apaixonado pelo desenvolvimento FrontEnd, um Dev Junior em constante aprendizado e evolução.
               </p>
               <br />
               <!-- <p class="text-grey">
@@ -61,13 +58,12 @@
       <v-col cols="12" class="padd" id="skills">
         <div>
           <h1 style="text-align: center;">Skills</h1><br />
-          <img src="skills.png" alt="">
+          <img style="width: 100%;" src="skills.png" alt="">
         </div>
       </v-col>
       <v-col cols="12" class="padd" id="projects">
-        <div style="height: 850px;
-              width: 100%">
-          <h1 style="text-align: center;">Alguns dos meus projetos</h1><br/>
+        <div style="height: 850px; width: 100%">
+          <h1 style="text-align: center;">Alguns dos meus projetos</h1><br />
           <Slider />
         </div>
       </v-col>
@@ -101,26 +97,24 @@
         <v-row>
           <v-col cols="12" sm="15">
             <h1 style="display: flex;
-                      justify-content: center;
-                      align-items: center;">Meus contatos
+                    justify-content: center;
+                    align-items: center;">Meus contatos
             </h1>
             <div class="contact">
               <div class="child">
-                <v-btn icon="fa-brands fa-whatsapp" color="" class="mt-7" variant="outlined"></v-btn><br />
-                <span class="text-caption">(81)9 9361-8055</span> <br />
-
+                <v-btn href="https://wa.me/5581993618055" target="_blank" icon="fa-brands fa-whatsapp" color=""
+                  class="mt-7" variant="outlined"></v-btn><br />
+                <span class="text-caption">WhatsApp</span> <br />
                 <v-btn icon="fas fa-envelope" color="" class="mt-7" variant="outlined"></v-btn><br />
                 <span class="text-caption">danillohss@gmail.com </span> <br />
-
               </div>
               <div class="child">
                 <v-btn icon="fa-brands fa-linkedin" color="" class="mt-7" variant="outlined"
                   href="https://www.linkedin.com/in/danillohss/" target="_blank"></v-btn><br />
-                <span class="text-caption">@danillohss</span> <br />
-
+                <span class="text-caption">LinkedIn</span> <br />
                 <v-btn icon="fa-brands fa-github" color="" class="mt-7" variant="outlined"
                   href="https://github.com/danillohss" target="_blank"></v-btn><br />
-                <span class="text-caption">@danillohss</span> <br />
+                <span class="text-caption">GitHub</span> <br />
               </div>
             </div>
           </v-col>
