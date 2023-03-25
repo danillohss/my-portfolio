@@ -4,10 +4,11 @@
             <v-icon color="yellow" left class="mr-2">fas fa-signature</v-icon> Danillo Silva
         </v-btn>
         <v-spacer></v-spacer>
-            <v-btn text @click="scroll('about')" class="text-yellow">SOBRE MIM</v-btn>
-            <!-- <v-btn text @click="scroll('projects')" class="text-yellow">Meus projetos</v-btn> -->
-            <v-btn text @click="scroll('future')" class="text-yellow">Para o futuro</v-btn>
-            <v-btn text @click="scroll('contact')" class="text-yellow">Contato</v-btn>
+        <v-btn text @click="scroll('about')" class="text-yellow">SOBRE MIM</v-btn>
+        <v-btn text @click="scroll('skills')" class="text-yellow">Skills</v-btn>
+        <v-btn text @click="scroll('projects')" class="text-yellow">Meus projetos</v-btn>
+        <v-btn text @click="scroll('future')" class="text-yellow">Para o futuro</v-btn>
+        <v-btn text @click="scroll('contact')" class="text-yellow">Contato</v-btn>
     </v-app-bar>
 </template>
 

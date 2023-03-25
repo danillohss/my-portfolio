@@ -58,8 +58,18 @@
           </v-row>
         </div>
       </v-col>
+      <v-col cols="12" class="padd" id="skills">
+        <div>
+          <h1 style="text-align: center;">Skills</h1><br />
+          <img src="skills.png" alt="">
+        </div>
+      </v-col>
       <v-col cols="12" class="padd" id="projects">
-
+        <div style="height: 850px;
+              width: 100%">
+          <h1 style="text-align: center;">Alguns dos meus projetos</h1><br/>
+          <Slider />
+        </div>
       </v-col>
       <v-col cols="12" class="mt-16" id="future">
         <div>
@@ -70,7 +80,7 @@
               </div>
             </v-col>
             <v-col cols="12" sm="6">
-              <h1 class="mt-16">O Que esperar para o futuro?</h1><br />
+              <h1 class="mt-16">O que esperar para o futuro ?</h1><br />
               <div style="width: 120px">
               </div>
               <p class="text-grey">
@@ -91,8 +101,8 @@
         <v-row>
           <v-col cols="12" sm="15">
             <h1 style="display: flex;
-                                              justify-content: center;
-                                              align-items: center;">Meus contatos
+                      justify-content: center;
+                      align-items: center;">Meus contatos
             </h1>
             <div class="contact">
               <div class="child">
@@ -127,12 +137,14 @@
 import { defineComponent } from "vue";
 import NavBar from "../components/NavBar.vue";
 import FooterView from "../components/FooterView.vue";
+import Slider from "../components/Slider.vue";
 
 export default defineComponent({
   name: "HomeView",
   components: {
     NavBar,
-    FooterView
+    FooterView,
+    Slider
   },
   methods: {
     topPage() {
