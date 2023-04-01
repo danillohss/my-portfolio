@@ -40,7 +40,7 @@
               </div>
               <h4 class="mt-n4">Desenvolvedor FrontEnd</h4>
               <p class="text-grey">
-                Meu nome é Danillo, tenho 25 anos, trabalhei como Desenvolvedor Jr FrontEnd na empresa Comeia, localizada
+                Meu nome é Danillo, tenho 25 anos, trabalhei como Desenvolvedor Jr Front-end na empresa Comeia, localizada
                 em Caruaru-PE, atualmente estou em busca de novas oportunidades e desafios. Sou um amante da tecnologia e
                 apaixonado pelo desenvolvimento FrontEnd, um Dev Junior em constante aprendizado e evolução.
               </p>
@@ -97,8 +97,8 @@
         <v-row>
           <v-col cols="12" sm="15">
             <h1 style="display: flex;
-                    justify-content: center;
-                    align-items: center;">Meus contatos
+                      justify-content: center;
+                      align-items: center;">Meus contatos
             </h1>
             <div class="contact">
               <div class="child">
