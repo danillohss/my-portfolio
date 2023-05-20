@@ -9,7 +9,14 @@
               <h1 class="text-grey">Olá,</h1>
               <h1 class="text-white">Meu nome é Danillo</h1>
               <span class="text-grey">Sou desenvolvedor Front-end</span><br />
-              <v-btn tile dark class="text-yellow mt-8" variant="outlined" href="profile.pdf" download>
+              <v-btn
+                tile
+                dark
+                class="text-yellow mt-8"
+                variant="outlined"
+                href="profile.pdf"
+                download
+              >
                 DOWNLOAD CURRÍCULO
               </v-btn>
             </div>
@@ -35,35 +42,33 @@
               </div>
             </v-col>
             <v-col cols="12" sm="6">
-              <h1 class="mt-16">Sobre mim</h1><br />
-              <div style="width: 120px">
-              </div>
+              <h1 class="mt-16">Sobre mim</h1>
+              <br />
+              <div style="width: 120px"></div>
               <h4 class="mt-n4">Desenvolvedor Front-end</h4>
-              <p class="text-grey">
-                Meu nome é Danillo, tenho 25 anos, trabalhei como Desenvolvedor Jr Front-end na empresa Comeia, localizada
-                em Caruaru-PE, atualmente estou em busca de novas oportunidades e desafios. Sou um amante da tecnologia e
-                apaixonado pelo desenvolvimento Front-end, um Dev Junior em constante aprendizado e evolução.
+              <p>
+                Meu nome é Danillo, tenho 25 anos, trabalhei como Desenvolvedor
+                Jr Front-end na empresa Comeia, localizada em Caruaru-PE,
+                atualmente estou em busca de novas oportunidades e desafios. Sou
+                um amante da tecnologia e apaixonado pelo desenvolvimento
+                Front-end, um Dev Junior em constante aprendizado e evolução.
               </p>
               <br />
-              <!-- <p class="text-grey">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aspernatur, ullam perspiciatis fugiat temporibus laboriosam
-                accusamus tempora repellendus sequi sed cum dolorum vero est.
-                Placeat dicta architecto reiciendis est veniam. Unde.
-              </p> -->
             </v-col>
           </v-row>
         </div>
       </v-col>
       <v-col cols="12" class="padd" id="skills">
         <div>
-          <h1 style="text-align: center;">Skills</h1><br />
-          <img style="width: 100%;" src="skills.png" alt="">
+          <h1 style="text-align: center">Skills</h1>
+          <br />
+          <img style="width: 100%" src="skills.png" alt="" />
         </div>
       </v-col>
       <v-col cols="12" class="padd" id="projects">
         <div style="height: 850px; width: 100%">
-          <h1 style="text-align: center;">Alguns dos meus projetos</h1><br />
+          <h1 style="text-align: center">Alguns dos meus projetos</h1>
+          <br />
           <Slider />
         </div>
       </v-col>
@@ -76,17 +81,22 @@
               </div>
             </v-col>
             <v-col cols="12" sm="6">
-              <h1 class="mt-16">O que esperar para o futuro ?</h1><br />
-              <div style="width: 120px">
-              </div>
+              <h1 class="mt-16">O que esperar para o futuro ?</h1>
+              <br />
+              <div style="width: 120px"></div>
               <p class="text-grey">
-                Sou uma pessoa que sempre estou pensando no futuro, seja ele pessoal ou profissional, porém hoje minhas
-                realizações pessoais estão diretamente ligadas aos meus objetivos
-                profissionais. O que quero para o meu futuro é me tornar um desenvolvedor JavaScript fullstack, tendo como
-                principais tecnologias Node.js e Vue.js. Hoje meus estudos estão sendo focados no HTML5, CSS3, JavaScript
-                e o próprio Vue.js, framework ao qual foi desenvolvido esse portfolio que você está lendo nesse momento.
-                Também venho desenvolvendo meu conhecimento em outras tecnologias como Bootstrap e JQuery. Ou seja, um
-                desenvolvedor Jr em constante aprendizado.
+                Sou uma pessoa que sempre estou pensando no futuro, seja ele
+                pessoal ou profissional, porém hoje minhas realizações pessoais
+                estão diretamente ligadas aos meus objetivos profissionais. O
+                que quero para o meu futuro é me tornar um desenvolvedor
+                JavaScript fullstack, tendo como principais tecnologias Node.js
+                e Vue.js. Hoje meus estudos estão sendo focados no HTML5, CSS3,
+                JavaScript e o próprio Vue.js, framework ao qual foi
+                desenvolvido esse portfolio que você está lendo nesse momento.
+                Também venho desenvolvendo meu conhecimento em outras
+                tecnologias como Bootstrap, JQuery e Vuetify, também com
+                experiência em Element UI. Ou seja, um desenvolvedor Jr em
+                constante aprendizado.
               </p>
               <br />
             </v-col>
@@ -96,24 +106,56 @@
       <v-col cols="12" sm="12" class="px-16" id="contact">
         <v-row>
           <v-col cols="12" sm="15">
-            <h1 style="display: flex;
-                      justify-content: center;
-                      align-items: center;">Meus contatos
+            <h1
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              Meus contatos
             </h1>
             <div class="contact">
               <div class="child">
-                <v-btn href="https://wa.me/5581993618055" target="_blank" icon="fa-brands fa-whatsapp" color=""
-                  class="mt-7" variant="outlined"></v-btn><br />
+                <v-btn
+                  href="https://wa.me/5581993618055"
+                  target="_blank"
+                  icon="fa-brands fa-whatsapp"
+                  color=""
+                  class="mt-7"
+                  variant="outlined"
+                ></v-btn
+                ><br />
                 <span class="text-caption">WhatsApp</span> <br />
-                <v-btn icon="fas fa-envelope" color="" class="mt-7" variant="outlined"></v-btn><br />
+                <v-btn
+                  icon="fas fa-envelope"
+                  color=""
+                  class="mt-7"
+                  variant="outlined"
+                ></v-btn
+                ><br />
                 <span class="text-caption">danillohss@gmail.com </span> <br />
               </div>
               <div class="child">
-                <v-btn icon="fa-brands fa-linkedin" color="" class="mt-7" variant="outlined"
-                  href="https://www.linkedin.com/in/danillohss/" target="_blank"></v-btn><br />
+                <v-btn
+                  icon="fa-brands fa-linkedin"
+                  color=""
+                  class="mt-7"
+                  variant="outlined"
+                  href="https://www.linkedin.com/in/danillohss/"
+                  target="_blank"
+                ></v-btn
+                ><br />
                 <span class="text-caption">LinkedIn</span> <br />
-                <v-btn icon="fa-brands fa-github" color="" class="mt-7" variant="outlined"
-                  href="https://github.com/danillohss" target="_blank"></v-btn><br />
+                <v-btn
+                  icon="fa-brands fa-github"
+                  color=""
+                  class="mt-7"
+                  variant="outlined"
+                  href="https://github.com/danillohss"
+                  target="_blank"
+                ></v-btn
+                ><br />
                 <span class="text-caption">GitHub</span> <br />
               </div>
             </div>
@@ -122,7 +164,14 @@
       </v-col>
     </v-container>
     <FooterView />
-    <v-btn tile dark class="text-yellow mt-8" variant="outlined" @click="topPage()" id="buttonTop">TOPO
+    <v-btn
+      tile
+      dark
+      class="text-yellow mt-8"
+      variant="outlined"
+      @click="topPage()"
+      id="buttonTop"
+      >TOPO
     </v-btn>
   </v-app>
 </template>
@@ -138,13 +187,17 @@ export default defineComponent({
   components: {
     NavBar,
     FooterView,
-    Slider
+    Slider,
   },
   methods: {
     topPage() {
-      window.scrollTo(0, 0);
-    }
-  }
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    },
+  },
 });
 </script>
 <style scoped>
@@ -248,6 +301,7 @@ export default defineComponent({
   position: fixed;
   bottom: 50px;
   right: 50px;
+
 }
 
 .hire {
