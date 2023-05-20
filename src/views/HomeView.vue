@@ -8,7 +8,7 @@
             <div style="position: relative" class="mt-16">
               <h1 class="text-grey">Olá,</h1>
               <h1 class="text-white">Meu nome é Danillo</h1>
-              <span class="text-grey">Sou desenvolvedor FrontEnd</span><br />
+              <span class="text-grey">Sou desenvolvedor Front-end</span><br />
               <v-btn tile dark class="text-yellow mt-8" variant="outlined" href="profile.pdf" download>
                 DOWNLOAD CURRÍCULO
               </v-btn>
@@ -38,11 +38,11 @@
               <h1 class="mt-16">Sobre mim</h1><br />
               <div style="width: 120px">
               </div>
-              <h4 class="mt-n4">Desenvolvedor FrontEnd</h4>
+              <h4 class="mt-n4">Desenvolvedor Front-end</h4>
               <p class="text-grey">
                 Meu nome é Danillo, tenho 25 anos, trabalhei como Desenvolvedor Jr Front-end na empresa Comeia, localizada
                 em Caruaru-PE, atualmente estou em busca de novas oportunidades e desafios. Sou um amante da tecnologia e
-                apaixonado pelo desenvolvimento FrontEnd, um Dev Junior em constante aprendizado e evolução.
+                apaixonado pelo desenvolvimento Front-end, um Dev Junior em constante aprendizado e evolução.
               </p>
               <br />
               <!-- <p class="text-grey">
