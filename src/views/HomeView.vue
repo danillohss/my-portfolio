@@ -66,10 +66,10 @@
         </div>
       </v-col>
       <v-col cols="12" class="padd" id="projects">
-        <div style="height: 850px; width: 100%">
+        <div style="height: 950px; width: 100%">
           <h1 style="text-align: center">Alguns dos meus projetos</h1>
           <br />
-          <Slider />
+          <Projects />
         </div>
       </v-col>
       <v-col cols="12" class="mt-16" id="future">
@@ -180,14 +180,14 @@
 import { defineComponent } from "vue";
 import NavBar from "../components/NavBar.vue";
 import FooterView from "../components/FooterView.vue";
-import Slider from "../components/Slider.vue";
+import Projects from "../components/Projects.vue";
 
 export default defineComponent({
   name: "HomeView",
   components: {
     NavBar,
     FooterView,
-    Slider,
+    Projects,
   },
   methods: {
     topPage() {
