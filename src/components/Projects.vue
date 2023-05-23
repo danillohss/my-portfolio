@@ -4,14 +4,6 @@
       style="width: 100%"
       variant="tonal"
       target="_blank"
-      href="https://danillohss.github.io/PizzaStore/"
-    >
-      Pizzaria </v-btn
-    ><br /><br />
-    <v-btn
-      style="width: 100%"
-      variant="tonal"
-      target="_blank"
       href="https://danillohss.github.io/drums-composition/"
     >
       Bateria Musical </v-btn
@@ -55,6 +47,14 @@
       href="https://danillohss.github.io/snack-project/"
     >
       Monte seu hambúrguer </v-btn
+    ><br /><br />
+    <v-btn
+      style="width: 100%"
+      variant="tonal"
+      target="_blank"
+      href="https://danillohss.github.io/PizzaStore/"
+    >
+      Pizzaria </v-btn
     ><br /><br />
     <v-btn
       variant="tonal"
