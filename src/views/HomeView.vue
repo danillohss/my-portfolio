@@ -50,7 +50,7 @@
                 Meu nome é Danillo, tenho 25 anos, trabalhei como Desenvolvedor
                 Jr Front-end na empresa Comeia, localizada em Caruaru-PE,
                 atualmente estou em busca de novas oportunidades e desafios. Sou
-                um amante da tecnologia e apaixonado pelo desenvolvimento
+                fascinado pela tecnologia e apaixonado pelo desenvolvimento
                 Front-end, um Dev Junior em constante aprendizado e evolução.
               </p>
               <br />
@@ -90,13 +90,15 @@
                 estão diretamente ligadas aos meus objetivos profissionais. O
                 que quero para o meu futuro é me tornar um desenvolvedor
                 JavaScript fullstack, tendo como principais tecnologias Node.js
-                e Vue.js. Hoje meus estudos estão sendo focados no HTML5, CSS3,
+                e Vue.js. Hoje meus estudos estão sendo focados no HTML5/CSS3,
                 JavaScript e o próprio Vue.js, framework ao qual foi
                 desenvolvido esse portfolio que você está lendo nesse momento.
                 Também venho desenvolvendo meu conhecimento em outras
-                tecnologias como Bootstrap, JQuery e Vuetify, também com
-                experiência em Element UI. Ou seja, um desenvolvedor Jr em
-                constante aprendizado.
+                tecnologias como Bootstrap, Vuetify e testes unitários com o
+                Cypress, também tenho experiência com Element UI. Sempre procuro
+                me atualizar e expandir mais ainda meu leque de conhecimentos.
+                Cursos, desenvolvimento e dedicação são coisas que sempre estão
+                no meu dia a dia.
               </p>
               <br />
             </v-col>
@@ -301,7 +303,6 @@ export default defineComponent({
   position: fixed;
   bottom: 50px;
   right: 50px;
-
 }
 
 .hire {
