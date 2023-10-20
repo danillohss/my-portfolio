@@ -19,4 +19,18 @@ export default {
     }
 }
 </script>
-<style scoped></style>
+
+<style scoped>
+/* Estilos padrão */
+.v-btn.text-yellow {
+  color: yellow;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+  .v-btn.text-yellow {
+    font-size: 14px; /* Tamanho de fonte menor */
+    padding: 6px 12px; /* Espaçamento interno menor */
+  }
+}
+</style>

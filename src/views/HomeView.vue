@@ -38,7 +38,7 @@
           <v-row>
             <v-col cols="12" sm="5">
               <div class="eggAbout">
-                <v-img src="aboutMe.png" max-height="300"></v-img>
+                <v-img src="aboutMe.png" max-height="100%"></v-img>
               </div>
             </v-col>
             <v-col cols="12" sm="6">
@@ -46,7 +46,7 @@
               <br />
               <div style="width: 120px"></div>
               <h4 class="mt-n4">Desenvolvedor Front-end</h4>
-              <p>
+              <p max-width="100%">
                 Meu nome é Danillo, tenho 25 anos, trabalhei como Desenvolvedor
                 Jr Front-end na empresa Comeia, localizada em Caruaru-PE,
                 atualmente estou em busca de novas oportunidades e desafios. Sou
@@ -89,16 +89,16 @@
                 pessoal ou profissional, porém hoje minhas realizações pessoais
                 estão diretamente ligadas aos meus objetivos profissionais. O
                 que quero para o meu futuro é me tornar um desenvolvedor
-                JavaScript fullstack, tendo como principais tecnologias Node.js
-                e Vue.js. Hoje meus estudos estão sendo focados no HTML5/CSS3,
-                JavaScript e o próprio Vue.js, framework ao qual foi
-                desenvolvido esse portfolio que você está lendo nesse momento.
-                Também venho desenvolvendo meu conhecimento em outras
-                tecnologias como Bootstrap, Vuetify e testes unitários com o
-                Cypress, também tenho experiência com Element UI. Sempre procuro
-                me atualizar e expandir mais ainda meu leque de conhecimentos.
-                Cursos, desenvolvimento e dedicação são coisas que sempre estão
-                no meu dia a dia.
+                fullstack, tendo como principais tecnologias C# e Vue.js. Hoje
+                meus estudos estão sendo focados no HTML5/CSS3, JavaScript e o
+                próprio Vue.js, framework ao qual foi desenvolvido esse
+                portfolio que você está lendo nesse momento. Também venho
+                desenvolvendo meu conhecimento em outras tecnologias como
+                Bootstrap, Vuetify, testes unitários com o Cypress e Nuxt.js, também
+                tenho experiência com Element UI. Sempre procuro me atualizar e
+                expandir mais ainda meu leque de conhecimentos. Cursos,
+                desenvolvimento e dedicação são coisas que sempre estão no meu
+                dia a dia.
               </p>
               <br />
             </v-col>
